@@ -8,6 +8,7 @@ body {
 
 nav {
     position: fixed;
+    z-index: 15;
     top: 0;
     left: 0;
     width:100%;
@@ -75,10 +76,14 @@ nav ul li a.active {
 section.sec1{
     width: 100%;
     height: 100vh;
-    background: url(Imagenes/zelda.jpg);
+    background: url(Imagenes/Star%20Wars%20.jpg);
     background-size:cover;
     background-position: center;
+    
+    
 }
+
+
 .content{
     margin-top: 80px;
 }
@@ -88,6 +93,51 @@ section.sec1{
     text-align: justify;
     font-size: 20px;
     line-height: 30px;
+}
+
+   
+
+iframe.video{
+    width: 35%;
+    height: 35%;
+     position: absolute;
+    top: 12%;
+    left: 15%;
+    z-index: 10;
+    border: white solid 3px;
+    
+}
+iframe.video2{
+    width: 35%;
+    height: 35%;
+     position: absolute;
+    top: 12%;
+    left: 52.5%;
+    z-index: 10;
+    border: white solid 3px;
+    
+}
+iframe.video3{
+    width: 35%;
+    height: 35%;
+     position: absolute;
+    top: 52%;
+    left: 15%;
+    z-index: 10;
+    border: white solid 3px;
+    
+}
+iframe.video4{
+    width: 35%;
+    height: 35%;
+     position: absolute;
+    top: 52%;
+    left: 52.5%;
+    z-index: 10;
+    border: white solid 3px;
+    
+}
+
     
     
     

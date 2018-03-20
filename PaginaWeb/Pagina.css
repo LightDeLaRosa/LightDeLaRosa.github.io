@@ -6,9 +6,9 @@
 }
 header{
     margin:100px auto;
-    width: 1200px;
+    width: 1000px;
     height: 230px;
-    background-color: cornflowerblue;
+    background-color: cornflowerblue; opacity: 0.9;
     
         display: flex;
 }
@@ -28,22 +28,20 @@ div.contenedor a{
     text-decoration: none;   
 }
 div#uno{
-background-color:#7FB3D5; 
+background-color:#AFFDFF; 
 }
 div#dos{
-    background-color:#85C1E9; 
+    background-color:#AFFDFF; 
 }
-div#tres{
-    background-color:#76D7C4; 
-}
+
 div#cuatro{
-    background-color:#73C6B6; 
+    background-color:#AFFDFF; 
 }
 div#cinco{
-    background-color:#F7DC6F; 
+    background-color:#AFFDFF; 
 }
 div#seis{
-    background-color:#F8C471; 
+    background-color:#AFFDFF; 
 }
 img.icon{
     display: block;
@@ -58,11 +56,11 @@ img.icon{
 }
 
 p.texto{
-    font-size: 1.2em;
-        color:white;
+    font-size: 1.5em;
+        color:black;
     text-align: center;
     padding-top:10px;
-    opacity: .6;
+    opacity: .0;
     -webkit-transition:padding-top .4s;
     
 }
@@ -78,12 +76,13 @@ div.contenedor:hover p.texto{
 }
 
 div.contenedor:hover img.icon{
-    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.8);
 }
 body{
+    display: flex;
    width: 100%;
     height: 100vh;
-    background: url(Imagenes/Fractales.jpg);
+    background: url(Imagenes/SOTC.jpg);
     background-size:cover;
     background-position: center;
 }

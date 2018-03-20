@@ -75,9 +75,10 @@ nav ul li a.active {
 section.sec1{
     width: 100%;
     height: 100vh;
-    background: url(Imagenes/zelda.jpg);
+    background: url(Imagenes/fallen.jpg);
     background-size:cover;
     background-position: center;
+    
 }
 .content{
     margin-top: 80px;
@@ -88,6 +89,20 @@ section.sec1{
     text-align: justify;
     font-size: 20px;
     line-height: 30px;
+}
+.content img{
+    width: 400px;
+    margin: 30px auto;
+    
+}
+.centrado{
+	margin:10px auto;
+	display:block;
+     
+  border: gray 5px outset;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+    }
     
     
     
