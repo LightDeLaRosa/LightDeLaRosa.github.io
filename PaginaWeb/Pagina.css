@@ -8,7 +8,7 @@ header{
     margin:100px auto;
     width: 1000px;
     height: 230px;
-    background-color: white; opacity: 0.9;
+    background-color: white; opacity: 0.8;
     
         display: flex;
 }
@@ -82,7 +82,7 @@ body{
     display: flex;
    width: 100%;
     height: 100vh;
-    background: url(Imagenes/StarWars.jpg);
+    background: url(Imagenes/beach-clouds-dawn-977737.jpg);
     background-size:cover;
     background-position: center;
 }
